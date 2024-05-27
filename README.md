@@ -1,5 +1,3 @@
-# huggingface-CI-demo
-
 ---
 title: Demo Deployment
 emoji: 🐶
