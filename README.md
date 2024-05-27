@@ -2,7 +2,7 @@
 
 ---
 title: Demo Deployment
-emoji: 😻
+emoji: 🐶
 colorFrom: gray
 colorTo: red
 sdk: gradio
