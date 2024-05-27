@@ -1,7 +1,7 @@
 name: Sync to Hugging Face hub
 on:
   push:
-    branches: [master]
+    branches: [main]
 
   # to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_SECRET }}
-        run: git push --force https://yadgire:$HF_SECRET@huggingface.co/spaces/yadgire/demo-deployment main
+        run: git push --force https://yadgire:$HF_SECRET@huggingface.co/spaces/yadgire/demo-deployment master
